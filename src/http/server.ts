@@ -1,7 +1,5 @@
 import 'dotenv/config';
 import express, { Request, Response, NextFunction } from 'express';
-import errorHandler from './middlewares/error-handler'
-import usuarioRoutes from './routes/users';
 
 const app: express.Application = express();
 
